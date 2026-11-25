@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bgMask" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#131A2A" />
+      <stop offset="100%" stop-color="#0B0F19" />
+    </linearGradient>
+    <linearGradient id="goldTopM" x1="145" y1="165" x2="367" y2="295" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FDE68A" />
+      <stop offset="45%" stop-color="#F5C518" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+    <linearGradient id="goldSideM" x1="140" y1="250" x2="372" y2="355" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#78350F" />
+    </linearGradient>
+  </defs>
+  <!-- Full-bleed safe background for maskable icons -->
+  <rect width="512" height="512" fill="url(#bgMask)" />
+  <!-- Gold Ingot centered inside 80% safe zone (padding ~70px each side) -->
+  <path d="M170 192C175 179 187 170 201 170H311C325 170 337 179 342 192L370 274C373 284 366 294 355 294H157C146 294 139 284 142 274L170 192Z" fill="url(#goldTopM)" />
+  <path d="M142 279L157 322C160 331 169 338 179 338H333C343 338 352 331 355 322L370 279C365 289 356 294 345 294H167C156 294 147 289 142 279Z" fill="url(#goldSideM)" />
+  <path d="M192 200C195 194 201 190 208 190H304C311 190 317 194 320 200L338 254C340 261 335 268 328 268H184C177 268 172 261 174 254L192 200Z" stroke="#78350F" stroke-opacity="0.45" stroke-width="4" fill="#FDE68A" fill-opacity="0.18" />
+  <text x="256" y="242" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="40" fill="#451A03">eD</text>
+  <text x="256" y="322" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="18" fill="#FDE68A" letter-spacing="2">999.9</text>
+</svg>

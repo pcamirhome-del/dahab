@@ -1,0 +1,6 @@
+{
+  "name": "eDahab - أسعار الذهب والعملات",
+  "description": "منصة إي دهب لمتابعة أسعار الذهب والعملات لحظة بلحظة في مصر، مع حاسبة المصنعية ومحفظة الذهب الذكية.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

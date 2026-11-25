@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#131A2A" />
+      <stop offset="100%" stop-color="#0B0F19" />
+    </linearGradient>
+    <linearGradient id="goldTop" x1="120" y1="140" x2="392" y2="310" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FDE68A" />
+      <stop offset="45%" stop-color="#F5C518" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+    <linearGradient id="goldSide" x1="110" y1="240" x2="402" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#78350F" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  <rect x="16" y="16" width="480" height="480" rx="100" stroke="#D4AF37" stroke-opacity="0.3" stroke-width="4" />
+  <!-- Gold Ingot Bar -->
+  <path d="M148 182C154 166 168 156 185 156H327C344 156 358 166 364 182L398 282C402 294 393 306 380 306H132C119 306 110 294 114 282L148 182Z" fill="url(#goldTop)" />
+  <path d="M114 288L132 340C136 351 146 358 158 358H354C366 358 376 351 380 340L398 288C392 300 381 306 368 306H144C131 306 120 300 114 288Z" fill="url(#goldSide)" />
+  <!-- Inner stamped bullion bezel -->
+  <path d="M174 192C178 184 185 180 194 180H318C327 180 334 184 338 192L360 258C362 266 356 274 348 274H164C156 274 150 266 152 258L174 192Z" stroke="#78350F" stroke-opacity="0.45" stroke-width="5" fill="#FDE68A" fill-opacity="0.18" />
+  <!-- 24K / eD Monogram -->
+  <text x="256" y="242" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="48" fill="#451A03" letter-spacing="-1">eD</text>
+  <text x="256" y="340" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="22" fill="#FDE68A" letter-spacing="3">999.9</text>
+</svg>
